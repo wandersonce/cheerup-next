@@ -69,4 +69,9 @@
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border-bottom: 4px solid #4CD62B;
+}
+
+.iconAfterButton {
+    margin-left: 1rem;
 }

@@ -58,6 +58,7 @@ export function Countdown() {
                     className={styles.countdownButton}>
 
                     Cycle Finished
+                    <img className={styles.iconAfterButton} src="images/Vectordone.svg" alt="close" />
 
                 </button>
 
@@ -70,6 +71,7 @@ export function Countdown() {
                             onClick={resetCountdown}>
 
                             Give Up Cycle
+                            <img className={styles.iconAfterButton} src="images/Vectorclose.svg" alt="close" />
 
                         </button>
 
@@ -81,6 +83,8 @@ export function Countdown() {
                             onClick={startCountdonw}>
 
                             Start a Cycle
+                            <img className={styles.iconAfterButton} src="images/Vectorstart.svg" alt="close" />
+
 
                         </button>
                     )}
